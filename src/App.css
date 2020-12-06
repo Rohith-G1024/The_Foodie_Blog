@@ -1,0 +1,192 @@
+.App {
+  text-align: center;
+}
+
+/* Custom edits from here... */
+
+@font-face{
+  font-family: 'Perpetua';
+  src: url(./comp/materials/Perpetua/Perpetua\ Bold\ font.ttf),
+  url(./comp/materials/Perpetua/perpeta.ttf),
+  url(./comp/materials/Perpetua/PERI____.TTF);
+}
+
+@font-face{
+  font-family: 'Delhi';
+  src: url(./comp/materials/Delhi.ttf);
+}
+
+@font-face{
+  font-family: 'Alcubierre';
+  src: url(./comp/materials/Alcubierre.otf);
+}
+
+@font-face{
+  font-family: 'Raleway';
+  src: url(./comp/materials/Raleway/Raleway-Black.ttf),
+   url(./comp/materials/Raleway/Raleway-Bold.ttf),
+   url(./comp/materials/Raleway/Raleway-Medium.ttf),
+   url(./comp/materials/Raleway/Raleway-Light.ttf),
+   url(./comp/materials/Raleway/Raleway-BoldItalic.ttf),
+}
+
+.firstpage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.firstpage h1 {
+  color: slateblue;
+  font-size: 100px;
+  font-family: 'Delhi';
+}
+
+.foodie{
+  color: slateblue;
+  font-size: 100px;
+  font-family: 'Delhi';  
+}
+
+.login, .signup, .welcome{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+h1{
+  font-family: 'Raleway';
+  font-weight: bold;  
+}
+.loginh1 {
+  margin-top: -25px;
+  font-weight: bolder;
+  color: teal;
+  text-align: center;
+  font-size: 100px;
+}
+.forms ,input,select,button {
+  margin-top: 10px;
+  display: block;
+  font-family: 'Raleway';
+  font-weight: bold;
+  height: 40px;
+  border-radius: 5px;
+  text-align: start;
+}
+
+textarea{
+  display: block;
+  font-family: 'Raleway' ;
+  font-weight: bold;
+  border-radius: 5px;
+}
+.read{
+  display: flow-root;
+  flex-direction: column;
+  flex-grow: initial;
+  flex-basis: content;
+  align-items: left;
+}
+
+.signup h1{
+  font-weight: bolder;
+  color: teal;
+  text-align: center;
+  font-size: 75px;  
+}
+
+input:focus,textarea:focus {
+  background-color: cyan;
+}
+
+.welcome ,.category,.view{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.welcome h1,view h1 {
+  color: deeppink;
+  font-size: 50px;
+  font-family: 'Raleway';
+}
+.page2 {
+  display: block;
+  margin-left: 20px;
+  text-align: start;
+  flex-direction: column;
+  align-items: left;
+  justify-content: left;
+}
+.page2 h1 {
+  color: purple;
+  font-size: 50px;
+  font-family: "Perpetua";
+}
+
+
+.nodewrap{
+  background-color: saddlebrown;
+  width: fit-content;
+  height: 1.2cm;
+  border-radius: 12px;
+  cursor: pointer;
+  text-decoration: none;
+  margin: 5px 5px 5px 5px;
+
+
+}
+
+.node  {
+  color: gold;
+  font-size: 30px;
+  padding: 20px 20px 20px 20px;
+  text-decoration: none;
+}
+
+.read {
+  display: block;
+  margin-left: 5px;
+  text-align: start;
+  flex-direction: column;
+  align-items: left;
+  justify-content: left;
+}
+
+.texts {
+  white-space: pre-wrap;
+  font-size: 20px;
+}
+
+
+.icon {
+  display: flex;
+  align-items:center ;
+  flex-wrap: wrap;
+}
+
+
+.author {
+  border-radius: 10px;
+  padding-left: 10px;
+  background-color: olive;
+}
+
+.linkb
+{
+  position: relative;
+  padding: 5px ;
+  background-color: chocolate;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.links {
+  font-size: 30px;
+  color: wheat;
+  text-decoration: none;
+  font-family: 'Alcubierre';
+}
